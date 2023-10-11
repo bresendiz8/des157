@@ -1,0 +1,179 @@
+html { 
+    background-image: url(images/background.png);
+    background-size: contain;
+    max-width: 1200px;
+}
+
+#container{
+    max-width: 1200px;
+}
+
+.banner {
+    background-image: url(images/wallpaper1.png);
+    background-size: cover;
+    padding: 50px;
+    max-width: 1200px;
+    height: 250px;
+}
+    
+ .banner h1 {
+    font-family: "BreatheNeue-Small", serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow:
+    1px 1px 2px rgb(255, 255, 255),
+    0 0 1em rgb(252, 209, 223),
+    0 0 0.2em rgb(252, 209, 223);
+    color: rgb(0, 0, 0);
+
+}
+
+ .banner h2{
+    font-family: "BreatheNeue-Small", serif;
+    font-size: 30px;
+    text-shadow:
+    1px 1px 2px rgb(255, 255, 255),
+    0 0 1em rgb(252, 209, 223),
+    0 0 0.2em rgb(252, 209, 223);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+#main section h2 {
+    font-family: "BreatheNeue-Small", serif;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+#main section ul li {
+    font-family: 'Libre Bodoni', serif;
+    list-style-type: none;
+    text-align: left;
+    justify-content: center;
+    line-height: 45px; 
+    background-color: rgba(238, 170, 158, 0.6);
+    border-style: double;
+   
+}
+
+#main section ul li a{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#main section#bigger {
+    flex-grow: 2;
+    background-image: url(images/floralback!.png);
+    background-size: cover;
+}
+
+#main section#bigger ul li {
+    text-align: center;
+    margin-right: 40px;
+}
+
+#main section {
+    flex-grow: 1;
+    width: 35%;
+    padding: 20px;
+    border: 1.8px solid #000000;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url(images/floralback!.png);
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#main section ul{
+    margin-right: 30px;
+}
+
+footer p {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+}
+
+footer p i{
+    font-family: "BreatheNeue-Small", serif;
+    margin-left: 8px;
+    font-size: 30px;
+
+}
+
+address {
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 15px;
+}
+
+address a {
+    color: rgb(238, 170, 158);
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+input[type="checkbox"] {
+    margin: 10px;
+    color: aquamarine;
+  } 
+/* input:checked + p {
+    text-decoration: line-through;
+  } (want to get the line to show to cross of as i check each box)
+
+icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+} (https://www.sliderrevolution.com/resources/css-checkbox/)checkbox example by thu nguyen*/
+
+
+/* time based animation */
+.haku img {
+    position:absolute;
+    right: 0;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+/* hover */
+.iconbar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.5s ease;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.iconbar a:hover {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.active {
+  background-color: rgba(238, 170, 158, 0.6);
+}
