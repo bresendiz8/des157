@@ -1,0 +1,87 @@
+html{
+    background-color: #FAF9F6;
+    max-width: 1200px;
+    margin: auto;
+}
+#banner {
+    display: block;
+    padding: 40px;
+}
+
+#banner h2 i {
+    font-family: "BreatheNeue-Small", serif;
+    margin-left: 8px;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.title h2 {
+    text-align: left;
+    font-size: 25px;
+}
+
+body {
+    display: block;
+}
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+article {
+    padding: 70px;
+    background-color: rgba(255, 203, 203, 0.4);
+    box-shadow: rgba(79, 79, 80, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+time {
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+address {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+address a {
+    color: rgb(238, 170, 158);
+}
+
+a {
+    color: rgb(241, 144, 127);
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
