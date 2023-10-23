@@ -40,10 +40,18 @@ main{
     margin-right: 200px;
 }
 
-article {
+#journal1 {
+    padding: 70px;
+    margin-top: 50px;
+    background-color: rgba(255, 216, 203, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#journal2 {
     padding: 70px;
     background-color: rgba(255, 203, 203, 0.4);
-    box-shadow: rgba(79, 79, 80, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
 }
 
 p {
