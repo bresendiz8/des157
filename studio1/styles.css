@@ -1,0 +1,88 @@
+html {
+    background-color: #ffe9af;
+    max-width: 1200px;
+    margin: auto
+}
+
+ main {
+    margin: auto;
+    width: 75%;
+    padding: 100px;
+    background-color: #ff9036;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(4, 4, 4, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+input {
+    font-size: 18px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+ form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#banner {
+    display: block;
+    padding: 40px;
+    width: 50%;
+}
+
+#banner h1{
+    font-family: "Superclarendon Bl V2";
+    font-size: 40px;
+    color: #d54f6f;
+    text-shadow: 4px 4px 0px #000;
+}
+
+#haku {
+    color: #59809f;
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+    text-align: left;
+    margin: 10px;
+}
+
+input[type=text]{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
+
+input[type=text]:focus{
+    width: 50%;
+    
+}
+
+input[type=submit] {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+#foot {
+    display: block;
+    padding-top: 15px;
+}
+
+#foot footer {
+    text-align: center;
+}
+
+#foot footer p {
+    font-family: 'Paytone One', sans-serif;
+}
+
