@@ -149,8 +149,9 @@ input[type=image] {
 }
 
 .close {
-    font-weight: 500;
-    border-radius: 8px;
+    font-weight: 800px;
+    border-radius: 20px;
     padding: 10px;
+    background-color: #b7042e;
 }
 
