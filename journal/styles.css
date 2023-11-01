@@ -61,6 +61,17 @@ main{
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
+#journal4 {
+    padding: 70px;
+    margin-bottom: 50px;
+    background-color: rgba(250, 185, 210, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+figure img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;

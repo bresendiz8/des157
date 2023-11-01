@@ -1,14 +1,14 @@
 (function(){
     'use strict';
 
-    console.log('reading js');
-
     const myForm = document.querySelector('#myform');
     const madLib = document.querySelector('#madlib');
      
 
     myForm.addEventListener('submit', function(event) {
         event.preventDefault();
+        document.querySelector('#overlay').className = "showing";
+
         const noun1 = document.querySelector('#noun1').value;
         const emotion1 = document.querySelector('#emotion1').value;
         const noun2 = document.querySelector('#noun2').value;
@@ -25,71 +25,72 @@
         const adj2 = document.querySelector('#adj2').value;
         const noun3 = document.querySelector('#noun3').value;
 
-        let myText = '';
+        let myText = "";
 
-        if(noun1 == '' ){
-            myText = "Please provide a noun"
+        if(noun1 == "" ){
+            myText = '<p>Please provide a noun.</p><button class="close">close</button>'
             document.querySelector('#noun1').focus();
         }
-        else if (emotion1 == '') {
-            myText = "Please provide an emotion"
+        else if (emotion1 == "") {
+            myText = '<p>Please provide an emotion.</p><button class="close">close</button>'
             document.querySelector('#emotion1').focus();
         }
-        else if (noun2 == ''){
-            myText = "Please provide a noun"
+        else if (noun2 == ""){
+            myText = '<p>Please provide a noun.</p><button class="close">close</button>'
             document.querySelector('#noun2').focus();
         }
-        else if(animal == ''){
-            myText = "Please provide an animal"
+        else if(animal == ""){
+            myText = '<p>Please provide an animal.</p><button class="close">close</button>'
             document.querySelector('#animal').focus();
         } 
-        else if(catchphrase == ''){
-            myText = "Please provide a catch phrase"
+        else if(catchphrase == ""){
+            myText = '<p>Please provide a catch phrase.</p><button class="close">close</button>'
             document.querySelector('#catchphrase').focus();
         }
-        else if(emotion2 == ''){
-            myText = "Please provide an emotion"
+        else if(emotion2 == ""){
+            myText = '<p>Please provide an emotion.</p><button class="close">close</button>'
             document.querySelector('#emotion2').focus();
         }
-        else if(adj1 == ''){
-            myText = "Please provide an adjective"
+        else if(adj1 == ""){
+            myText = '<p>Please provide an adjective.</p><button class="close">close</button>'
             document.querySelector('#adj1').focus();
         }
-        else if(plural == ''){
-            myText = "Please provide a plural noun"
+        else if(plural == ""){
+            myText = '<p>Please provide a plural noun.</p><button class="close">close</button>'
             document.querySelector('#plural').focus();
         }
-        else if(verb == ''){
-            myText = "Please provide a verb"
+        else if(verb == ""){
+            myText = '<p>Please provide a verb.</p><button class="close">close</button>'
             document.querySelector('#verb').focus();
         }
-        else if(location == ''){
-            myText = "Please provide a location"
+        else if(location == ""){
+            myText = '<p>Please provide a location.</p><button class="close">close</button>'
             document.querySelector('#location').focus();
         }
-        else if(adverb == ''){
-            myText = "Please provide an adverb"
+        else if(adverb == ""){
+            myText = '<p>Please provide an adverb.</p><button class="close">close</button>'
             document.querySelector('#adverb').focus();
         }
-        else if(song == ''){
-            myText = "Please provide a song title"
+        else if(song == ""){
+            myText = '<p>Please provide a song title.</p><button class="close">close</button>'
             document.querySelector('#song').focus();
         }
-        else if(body == ''){
-            myText = "Please provide a body part"
+        else if(body == ""){
+            myText = '<p>Please provide a body part.</p><button class="close">close</button>'
             document.querySelector('#body').focus();
         }
-        else if(adj2 == ''){
-            myText = "Please provide an adjective"
+        else if(adj2 == ""){
+            myText = '<p>Please provide an adjective.</p><button class="close">close</button>'
             document.querySelector('#adj2').focus();
         }
-        else if(noun3 == ''){
-            myText = "Please provide a noun"
+        else if(noun3 == ""){
+            myText = '<p>Please provide a noun.</p><button class="close">close</button>'
             document.querySelector('#noun3').focus();
         }
 
         else {
-            myText = `you typed the words ${noun1}, ${emotion1}, ${noun2}, ${animal}, ${catchphrase}, ${emotion2}, ${adj1}, ${plural}, ${verb}, ${location}, ${adverb}, ${song}, ${body}, ${adj2}, ${noun3}, `;
+            myText = `<p>When Scar and Luna met, it was ${noun1} at first sight. Haku was ${emotion1}. She was like ${noun2} and walked like a ${animal}. Haku zoomed over to meow "${catchphrase}" and introduced himself. Luna was so ${emotion2}. She had seen him in the streets before and believed he was super  ${adj1}. They meowed and meowed for so long and finally exchanged ${plural}. On the first date, they ${verb} at the ${location} and Haku couldn't keep his paws off her. He ${adverb} at her and meowed "${song}". He instantly knew he had to put a ring on ${body}. Since meeting, they've been inseparable and she started to call him her "${adj2} ${noun3}".<p> 
+            <button class="close">close</button>`;
             document.querySelector('#noun1').value = '';
             document.querySelector('#emotion1').value = '';
             document.querySelector('#noun2').value = '';
@@ -107,10 +108,17 @@
             document.querySelector('#noun3').value = '';
 
         } 
-
         madLib.innerHTML = myText;
 
+        document.querySelector('.close').addEventListener('click',function(event){
+            event.preventDefault();
+            document.querySelector('#overlay').className = "hidden";        
+        });
+    
+        document.addEventListener('keydown',function(event){
+            if(event.key === 'Escape'){
+                document.querySelector('#overlay').className = "hidden";
+            }        
+        });
     });
-
-
 })();

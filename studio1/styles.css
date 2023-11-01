@@ -7,11 +7,12 @@ html {
  main {
     margin: auto;
     width: 75%;
-    padding: 100px;
-    background-color: #ff9036;
+    padding: 80px;
+    background-color: rgb(255, 144, 54);
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(4, 4, 4, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+    box-shadow: 0 0 0 2px rgb(0, 0, 0), 8px 8px 0 0 rgb(0, 0, 0);
 }
+
 
 label {
     font-size: 18px;
@@ -31,8 +32,7 @@ input {
 
 #banner {
     display: block;
-    padding: 40px;
-    width: 50%;
+    padding: 50px;
 }
 
 #banner h1{
@@ -40,12 +40,8 @@ input {
     font-size: 40px;
     color: #d54f6f;
     text-shadow: 4px 4px 0px #000;
-}
-
-#haku {
-    color: #59809f;
-    text-align: center;
-    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
 }
 
 label {
@@ -61,16 +57,17 @@ input[type=text]{
     
 }
 
-input[type=text]:focus{
-    width: 50%;
-    
-}
-
-input[type=submit] {
-    margin: 10px;
+input[type=image] {
+    /* margin-top: 285px;
     box-sizing: border-box;
     border: 1px solid #000000;
-    border-radius: 6px;
+    background-color: #d54f6f;
+    border-radius: 6px; */
+    
+    width: 50%;
+    height: 60%;
+    margin-top: 100px;
+    position: relative;
 }
 
 #foot {
@@ -78,11 +75,82 @@ input[type=submit] {
     padding-top: 15px;
 }
 
-#foot footer {
+#foot footer p {
+    font-family: 'Paytone One', sans-serif;
     text-align: center;
 }
 
-#foot footer p {
+/*visual & animation*/
+
+#visual img{
+    position: absolute;
+    left: 750px;
+    top: 10px;
+    width: 175px;
+    animation: pulse 3s infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/*overlay*/
+
+#overlay {
+    display: block;
+    margin-left: 130px;
+    margin-top: 200px;
+    width: 70%;
+    height: 50%;
+    padding: 50px;
+    position: absolute;
+    background-color: rgb(255, 144, 54);
+    border: 0.75px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+
+}
+
+#overlay article {
+    color: #000000;
+    font-size: 20px;
     font-family: 'Paytone One', sans-serif;
+    top: 50%
+
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#overlay h1 {
+    color: #b7042e;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Superclarendon Bl V2";
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+.close {
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px;
 }
 
