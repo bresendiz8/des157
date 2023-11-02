@@ -131,16 +131,16 @@ input[type=image] {
 
 }
 
-.hidden {
-    visibility: hidden;
-    opacity: 0;
-}
-
 #overlay h1 {
     color: #b7042e;
     text-align: center;
     font-size: 20px;
     font-family: "Superclarendon Bl V2";
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
 }
 
 .showing {
@@ -149,9 +149,9 @@ input[type=image] {
 }
 
 .close {
-    font-weight: 800px;
     border-radius: 20px;
-    padding: 10px;
-    background-color: #b7042e;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #a41c3c;
 }
 

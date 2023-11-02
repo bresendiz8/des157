@@ -89,7 +89,7 @@
         }
 
         else {
-            myText = `<p>When Scar and Luna met, it was ${noun1} at first sight. Haku was ${emotion1}. She was like ${noun2} and walked like a ${animal}. Haku zoomed over to meow "${catchphrase}" and introduced himself. Luna was so ${emotion2}. She had seen him in the streets before and believed he was super  ${adj1}. They meowed and meowed for so long and finally exchanged ${plural}. On the first date, they ${verb} at the ${location} and Haku couldn't keep his paws off her. He ${adverb} at her and meowed "${song}". He instantly knew he had to put a ring on ${body}. Since meeting, they've been inseparable and she started to call him her "${adj2} ${noun3}".<p> 
+            myText = `<p>When Haku and Luna met, it was ${noun1} at first sight. Haku was ${emotion1}. She was like ${noun2} and walked like a ${animal}. Haku zoomed over to meow "${catchphrase}" and introduced himself. Luna was so ${emotion2}. She had seen him in the streets before and believed he was super ${adj1}. They meowed and meowed for so long and finally exchanged ${plural}. On the first date, they ${verb} at ${location} and Haku couldn't keep his paws off her. He ${adverb} at her and meowed "${song}". He instantly knew he had to put a ring on her ${body}. Since meeting, they've been inseparable and she started to call him her "${adj2} ${noun3}".<p> 
             <button class="close">close</button>`;
             document.querySelector('#noun1').value = '';
             document.querySelector('#emotion1').value = '';
