@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(138, 154, 91);
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+}
+
+#container {
+    width: 800px;
+    height: 547px;
+    position: relative;
+    margin: auto;
+}
+
+#container div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+#container img {
+    display: block;
+    position: absolute;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}

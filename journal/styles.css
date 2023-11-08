@@ -44,28 +44,35 @@ main{
     padding: 70px;
     margin-top: 50px;
     background-color: rgba(255, 216, 203, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
 }
 
 #journal2 {
     padding: 70px;
     margin-top: 50px;
     background-color: rgba(255, 203, 203, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
 
 }
 
 #journal3 {
     padding: 70px;
     background-color: rgba(252, 192, 149, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
 }
 
 #journal4 {
     padding: 70px;
     margin-bottom: 50px;
     background-color: rgba(250, 185, 210, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+#journal5 {
+    padding: 70px;
+    margin-bottom: 50px;
+    background-color: rgba(252, 192, 149, 0.4);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
 }
 
 figure img{
