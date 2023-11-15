@@ -6,7 +6,7 @@ html {
 }
 
 #foot p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -23,21 +23,19 @@ html {
 #header h1{
     font-family: 'Shadows Into Light Two', cursive;
     color: rgb(161, 0, 0);
-    font-size: 50px;
-    text-align: center;
-    margin: 1;
-    
+    font-size: 30px;
+    text-align: center; 
 }
 
 #header h2{
     font-family: 'Glass Antiqua', cursive;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
  }
  #header h3{
     font-family: 'Glass Antiqua', cursive;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     line-height: 40px;
     margin: 0;
@@ -101,13 +99,12 @@ html {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 10px;
     top: 0;
-    left: 1;
-    
+    left: 2;
     }
     
 #overlay article {
     color: #000000;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Reenie Beanie', cursive;
  
     
@@ -116,22 +113,22 @@ html {
 #overlay article h2 {
     font-family: 'Shadows Into Light Two', cursive;
     color: rgb(161, 0, 0);
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 
 }
 
  #test {
-    margin-top: 50px;
+    margin-top: 10px;
     color: rgb(161, 0, 0);
 }
 
 .close {
     border-radius: 50px;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 35px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
     background-color: #f3bbc8;
     
 }
@@ -147,7 +144,7 @@ html {
     background-color: #ffe0e7;
 	color: #000000;
     font-family: 'Shadows Into Light Two', cursive;
-	font-size: 50px;
+	font-size: 30px;
     font-weight: bold;
 	text-align: center;
 	display: flex;

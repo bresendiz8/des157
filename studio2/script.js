@@ -53,7 +53,7 @@
       pAge.innerHTML="Age: 3";
       pBreed.innerHTML="Breed: Tabby";
       pFun.innerHTML="Fun Fact: Scar and Haku are siblings!";
-      aTest.innerHTML="Appreciation Post: Scar is a sweet cat. Always sticks around and scouts around making me feel safe. Loves to take daily naps and has the cutuest tail. -scar's human";
+      aTest.innerHTML="Appreciation Post: Scar is a sweet cat. He always tends to stick and scout around making me feel safe. Scar loves to take daily naps and has the cutest fluffiest tail. -scar's human";
       window.scrollTo(0, 0);
 
       window.scrollTo({
@@ -71,7 +71,7 @@
       pAge.innerHTML="Age: unknown";
       pBreed.innerHTML="Breed: Orange Tabby";
       pFun.innerHTML="Fun Fact: Claude will not eat any other treats besides churus!";
-      aTest.innerHTML="Appreciation Post: Claude is the friendly apartment cat. He loves to come to the apartment and call out until someone gives him attention. Everyone around loves his company and leave food out for claude to munch on. He recently was adopted by a neighbor! -fav human";
+      aTest.innerHTML="Appreciation Post: Claude is the friendly apartment cat. He loves to come to the apartment and call out until someone gives him attention. Everyone around loves his company and leave food out for Claude to munch on. He recently was adopted by a neighbor! -fav human";
       window.scrollTo(0, 0);
 
       window.scrollTo({
