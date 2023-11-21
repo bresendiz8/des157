@@ -1,0 +1,71 @@
+html {
+    background-image: url(images/background.png);
+    width: 100%;
+    background-size: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    padding: none;
+}
+
+.header h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.header p {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+#gamecontrol button {
+    font-family: 'Quantico', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}/*button*/
+
+#actions button {
+    font-family: 'Quantico', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}/*button*/
+
+#gamecontrol h2 {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+}
+
+#gamecontrol, #score {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+}
+
+#game {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+}
+
+ 
