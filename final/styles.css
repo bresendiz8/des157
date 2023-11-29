@@ -1,0 +1,89 @@
+html{
+    background-color: #FAF9F6;
+    max-width: 1200px;
+    margin: auto;
+}
+#banner {
+    display: block;
+    padding: 40px;
+}
+
+#banner h2 i {
+    font-family: "BreatheNeue-Small", serif;
+    margin-left: 8px;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}
+
+#by h2 {
+    text-align: center;
+}
+
+ h2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#brief {
+    padding: 70px;
+    background-color: rgba(255, 216, 203, 0.4);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+time {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+address {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+address a {
+    color: rgb(238, 170, 158);
+}
+
+a {
+    color: rgb(241, 144, 127);
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }

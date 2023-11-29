@@ -11,20 +11,28 @@
 	<link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
-<body>
+<div>
     <div class="header">
-    <img src="images/score1.png">
     <h1>Game of Friends</h1>
-    <img src="images/score2.png">
     </div>
 
     <div id="gamecontrol">
-        <p>Directions: </p>
         <h2>Start a Game</h2>
-        <button id="startgame">Randomly Pick the First Friend, and Start the Game</button>
+        <button id="startgame">
+            Randomly Pick the First Friend, and Start the Game
+        </button>
     </div>
 
-    <div id="game"></div>
+    <div id="players">
+        <div id="player1" class="player">
+            <img src="images/player1.png">
+        </div>
+        <div id="game"></div>
+        <div id="player2" class="player">
+            <img src="images/player2.png">
+        </div>
+    </div>
+    
     <div id="actions"></div>
     <div id="score"></div>
 

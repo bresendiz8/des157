@@ -6,66 +6,89 @@ html {
     margin: auto;
 }
 
-.header {
-    display: flex;
-    padding: none;
-}
-
-.header h1 {
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    margin: auto;
-}
-
-.header p {
-    font-family: 'Quantico', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-button { 
+body {
+    display: block;
     padding: 10px;
+    margin: 20px;
 }
 
-div {
-    padding: 20px;
+
+.header {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 25px;
 }
-#gamecontrol button {
-    font-family: 'Quantico', sans-serif;
-    font-size: 15px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 15px;
-    background-color: #ffffff;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-}/*button*/
 
-#actions button {
-    font-family: 'Quantico', sans-serif;
-    font-size: 15px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 15px;
-    background-color: #ffffff;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-}/*button*/
+.header img {
+    max-width: 50%;
+}
 
-#gamecontrol h2 {
-    font-family: 'Quantico', sans-serif;
+.score {
     font-size: 20px;
+    color: rgb(255, 157, 157);
+    position: absolute;
+    top: 30px;
 }
 
-#gamecontrol, #score {
-    font-family: 'Quantico', sans-serif;
-    font-size: 20px;
+#players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #game {
+    max-width: 100%;
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#game img {
+    max-width: 100%;
+    margin: 20px;
+    margin-top: 150px;
+    animation: diceFade 0.5s;
+}
+
+@keyframes diceFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    font-family: 'Quantico', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-style: solid;
+    border-color: #67ccfc;
+    border-width: 2px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(252, 227, 237, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#gamecontrol {
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#actions {
     font-family: 'Quantico', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
+#score {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
 
  
