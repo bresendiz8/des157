@@ -8,8 +8,11 @@
     const game = document.querySelector('#game');
     const score = document.querySelector('#score');
     const actionArea = document.querySelector('#actions');
+    // variable for sound effects
+    const diceSound = new Audio('sounds/diceroll.mp3');
+    const winSound = new Audio('sounds/gamewin.mp3');
 
-
+    
     const gameData = {
         dice: [
         'images/dice1.png', 
@@ -93,7 +96,13 @@
                 setUpTurn(); 
             });
 
-            CheckForWin();
+            //sounds
+            if (CheckForWin()) {
+                winSound.play();
+            } else {
+                
+                diceSound.play();
+            }
         }
         //function for winner of the game
         function CheckForWin() {
