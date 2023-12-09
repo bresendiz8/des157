@@ -1,0 +1,107 @@
+html {
+    background-image: url(images2/background.png);
+    background-size: cover;
+}
+
+body {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+}
+
+#canvas {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: rgb(105, 205, 252, 0.8);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    justify-content: center;
+}
+
+#gamecontrol {
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#players {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.player img {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#game {
+    width: 80%;
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#game img {
+    max-width: 80%;
+    margin-top: 100px;
+    justify-content: center;
+    animation: diceFade 0.5s;
+}
+
+#roll {
+    margin-bottom: 10px;
+}
+
+@keyframes diceFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    font-family: 'Quantico', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    border-width: 2px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #EDACC8;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#actions {
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#score {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+}
+
+

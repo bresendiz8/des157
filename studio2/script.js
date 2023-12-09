@@ -183,7 +183,7 @@
         }        
         
      });
-    
+    //page loader//
       const preloader = document.getElementById('preloader');
         preloader.className = 'fadeout';
     

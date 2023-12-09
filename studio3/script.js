@@ -9,8 +9,8 @@
     const score = document.querySelector('#score');
     const actionArea = document.querySelector('#actions');
     // variable for sound effects
-    const diceSound = new Audio('sounds/diceroll.mp3');
-    const winSound = new Audio('sounds/gamewin.mp3');
+    const diceSound = new Audio('sounds2/diceroll.mp3');
+    const winSound = new Audio('sounds2/gamewin.mp3');
 
     
     const gameData = {
